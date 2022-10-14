@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skriv inn navn:" />
+    <EditText
+        android:id="@+id/navn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skriv inn telefon:" />
+    <EditText
+        android:id="@+id/telefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/oppdater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="oppdater"
+        android:text="Oppdater" />
+    <Button
+        android:id="@+id/slett"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="slett"
+        android:text="Slett" />
+</LinearLayout>

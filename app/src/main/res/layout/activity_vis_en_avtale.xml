@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navn:" />
+    <TextView
+        android:id="@+id/navnAvt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sted:" />
+    <TextView
+        android:id="@+id/stedAvt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dato:" />
+    <TextView
+        android:id="@+id/datoAvt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Klokke:" />
+    <TextView
+        android:id="@+id/klokkeAvt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Melding:" />
+    <TextView
+        android:id="@+id/meldingAvt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deltakere:" />
+    <TextView
+        android:id="@+id/DeltakereAvt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/rediger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="leggtil"
+        android:text="Rediger"
+        />
+    <Button
+        android:id="@+id/slett"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="leggtil"
+        android:text="Slett"
+        />
+</LinearLayout>

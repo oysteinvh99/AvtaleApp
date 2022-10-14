@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".leggtil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skriv inn navn:" />
+        <EditText
+            android:id="@+id/navnA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skriv inn Dato:" />
+        <EditText
+            android:id="@+id/datoA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skriv inn klokke:" />
+        <EditText
+            android:id="@+id/klokkeA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skriv inn sted:" />
+        <EditText
+            android:id="@+id/stedA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skriv inn melding:" />
+        <EditText
+            android:id="@+id/meldingA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/leggtilDeltaker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="leggtilDeltaker"
+            android:text="Legg til Deltakere" />
+
+        <Button
+            android:id="@+id/oppdater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="leggtil"
+            android:text="Oppdater"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deltakere:" />
+        <TextView
+            android:id="@+id/visdeltakere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
