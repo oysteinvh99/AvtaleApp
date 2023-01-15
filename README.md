@@ -1,2 +1,2 @@
-# database
- Mappe2
+# Avtaler
+ Applikasjon for å lage avtaler. 
